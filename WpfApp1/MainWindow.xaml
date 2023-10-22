@@ -1,0 +1,126 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Our First App" Height="450" Width="800"
+       
+        >
+    <!--<Grid 
+        Background="BlanchedAlmond"
+        >
+        --><!--<Ellipse Fill="Red"></Ellipse>
+        <Button Height="40" Width="40" FontSize="30" Click="Button_Click">X</Button>--><!--
+  
+    
+    
+    </Grid>-->
+
+
+    <!--<Grid>
+        <Grid.Background>
+            Red
+        </Grid.Background>
+    </Grid>-->
+
+    <!--<Grid Background="Orange">
+        
+    </Grid>-->
+
+    <Grid Background="Black" >
+        <!--<Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="#43C6AC" Offset="0" />
+                <GradientStop Color="#F8FFAE" Offset="0.7" />
+            </LinearGradientBrush>
+        </Grid.Background>-->
+
+        <!--<Border BorderThickness="8" 
+                Height="135" 
+                Width="600"
+                CornerRadius="20"
+                >
+            <Border.BorderBrush>
+                <LinearGradientBrush>
+                    <GradientStop Color="White" Offset="0"></GradientStop>
+                    <GradientStop Color="#f64f59" Offset="0.4"></GradientStop>
+                    <GradientStop Color="#c471ed" Offset="0.7"></GradientStop>
+                    <GradientStop Color="#12c2e9" Offset="1"></GradientStop>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+        <Label Content="Happy Halloween"
+               FontSize="70"
+               FontFamily="Comic Sans MS"
+               BorderThickness="0"
+               Height="120"
+               VerticalContentAlignment="Center"
+               HorizontalContentAlignment="Center"
+               >
+            <Label.Foreground>
+                <LinearGradientBrush>
+                    <GradientStop Color="#12c2e9" Offset="0"></GradientStop>
+                    <GradientStop Color="#c471ed" Offset="0.4"></GradientStop>
+                    <GradientStop Color="#f64f59" Offset="0.7"></GradientStop>
+                    <GradientStop Color="White" Offset="1"></GradientStop>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        </Border>-->
+            
+        <!--<Button Width="200"
+                Height="70"
+                FontSize="40"
+                FontFamily="Comic Sans MS"
+                Background="Orange"
+                
+                Foreground="White"
+                BorderThickness="6"
+                BorderBrush="White"
+                Content="Salam"
+                >
+        </Button>-->
+
+        <!--<StackPanel>
+            <Button Margin="30,20,10,3" FontSize="25" Content="Button 1"></Button>
+            <Button Padding="20" Height="40" FontSize="25" Content="Button 2"></Button>
+        </StackPanel>-->
+
+        <!--<StackPanel>
+            <Button Margin="0,20,0,0" Height="40" FontSize="25" Content="Button 2"></Button>
+            <Button Margin="0,30,0,0" FontSize="25" Content="Button 1"></Button>
+        </StackPanel>-->
+
+
+        <!--<StackPanel Margin="10" Background="Yellow" Orientation="Horizontal"
+                    >
+            <Button HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Content="Button 1"></Button>
+            <Button FontSize="25" Content="Button 2"></Button>
+        </StackPanel>-->
+
+        <!--<StackPanel Name="mystack" Margin="30" Background="Yellow" MouseMove="Grid_MouseMove"
+                    
+                    >
+            <Button Name="btn1"
+                    MouseDoubleClick="btn1_MouseDoubleClick"
+                    Click="btn1_Click" FontSize="25" Content="Button 1"></Button>
+            <Button Name="btn2" Click="btn1_Click" FontSize="25" Content="Button 2"></Button>
+        </StackPanel>-->
+
+        <Button Name="btn1" Click="Clicked">Hi</Button>
+
+        <x:Code>
+            <![CDATA[
+            
+            void Clicked(object sender,RoutedEventArgs e
+            )
+            {
+                btn1.Content="Heyyy";
+            }
+            ]]>
+        </x:Code>
+
+    </Grid>
+    
+</Window>
